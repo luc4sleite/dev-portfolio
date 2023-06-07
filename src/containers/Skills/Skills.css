@@ -1,0 +1,30 @@
+.app__skills {
+    width: 345px;
+    border-top: 1px solid var(--color-4);
+    border-bottom: 1px solid var(--color-4);
+    padding: 40px 0;
+    row-gap: 24px;
+
+    margin: auto;
+    margin-top: 80px;
+}
+
+@media screen and (min-width:768px) {
+    .app__skills {
+        width: 708px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: flex-start;
+        justify-items: flex-start;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .app__skills {
+        width: 1110px;
+        grid-template-columns: repeat(3, 1fr);
+
+        margin-top: 219px;
+    }
+}

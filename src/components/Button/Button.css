@@ -1,0 +1,22 @@
+.app__button {
+  background: none;
+  border: none;  
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.app__button a {
+  border-bottom: 2px solid var(--color-2);
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.28571px;
+
+  padding-bottom: 10px;
+}
+
+.app__button a:hover {
+  color: var(--color-2);
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+
+:root {
+  --color-1: #151515;
+  --color-2: #4ee1a0;
+  --color-3: #242424;
+  --color-4: #d9d9d9;
+  --color-white: #fff;
+
+  --font-family: 'Space Grotesk', sans-serif;
+
+  --fw-1: 700;
+  --fw-2: 500;
+
+  --fs-1: 88px;
+  --fs-2: 48px;
+  --fs-3: 24px;
+  --fs-4: 16px;
+  --fs-logo-1: 32px;
+  --fs-logo-2: 24px;
+
+  --lh-1: 88px;
+  --lh-2: 56px;
+  --lh-3: 32px;
+  --lh-4: 26px;
+
+  --ls-1: -2.5px;
+  --ls-2: -1.5px; 
+  --ls-logo-1: -0.444444px;
+  --ls-logo-2: -0.333333px;
+}
+
+.title-xl {
+  font-family: var(--font-family);
+  font-weight: var(--fw-1);
+  font-size: var(--fs-1);
+  line-height: var(--lh-1);
+  letter-spacing: var(--ls-1);
+}
+
+.title-l {
+  font-family: var(--font-family);
+  font-weight: var(--fw-1);
+  font-size: var(--fs-2);
+  line-height: var(--lh-2);
+  letter-spacing: var(--ls-2);
+}
+
+.title-m {
+  font-family: var(--font-family);
+  font-weight: var(--fw-1);
+  font-size: var(--fs-3);
+  line-height: var(--lh-3);
+}
+
+.paragraph {
+  font-family: var(--font-family);
+  font-weight: var(--fw-2);
+  font-size: var(--fs-4);
+  line-height: var(--lh-4);
+  color: var(--color-4);
+}
+
+.flex__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__padding {
+  width: 92vw;
+  margin: auto;
+}

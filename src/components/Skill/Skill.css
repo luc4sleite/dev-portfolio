@@ -1,0 +1,38 @@
+.app__skill {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.app__skill h2 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.app__skill p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--color-4);
+}
+
+@media screen and (min-width: 768px) {
+  .app__skill {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .app__skill h2 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+  }
+
+  .app__skill p {
+    font-size: 18px;
+    line-height: 28px;
+
+    margin-top: 14px;
+  }
+}
